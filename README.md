@@ -80,6 +80,10 @@ Deploy resources:
 
 Resources will be deployed in `eu-west-2` (London region)
 
+**To remove resources**
+
+`cdk destroy`
+
 > Make sure AWS Credentials are setup before running these steps.
 
 ## Useful commands
