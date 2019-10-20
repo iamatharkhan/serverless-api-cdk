@@ -1,0 +1,31 @@
+{
+  "name": "serverless-api-cdk",
+  "version": "0.1.0",
+  "bin": {
+    "serverless-api-cdk": "bin/serverless-api-cdk.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk",
+    "build-webpack": "webpack"
+  },
+  "devDependencies": {
+    "@aws-cdk/core": "^1.13.1",
+    "@aws-cdk/assert": "^1.13.1",
+    "@aws-cdk/aws-apigateway": "^1.13.1",
+    "@aws-cdk/aws-lambda": "^1.13.1",
+    "@types/jest": "^24.0.18",
+    "aws-cdk": "^1.13.1",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.1.0",
+    "typescript": "~3.6.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "source-map-support": "^0.5.9"
+  }
+}
