@@ -68,17 +68,17 @@ Build the project and run tests.
 
 You will need to bootstrap CDK, if running for the first time:
 
-`npm run cdk-bootstrap`
+`npm run cdk bootstrap`
 
 Deploy resources:
 
-`npm run cdk-deploy`
+`npm run cdk deploy`
 
 Resources will be deployed in `eu-west-2` (London region)
 
 **To remove resources**
 
-`npm run cdk-destroy`
+`npm run cdk destroy`
 
 > Make sure AWS Credentials are setup before running these steps.
 
