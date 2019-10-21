@@ -9,7 +9,11 @@
     "watch": "tsc -w",
     "test": "jest",
     "cdk": "cdk",
-    "build-webpack": "webpack"
+    "build-webpack": "webpack",
+    "start-api": "cdk synth --no-staging > template.yml && sam local start-api",
+    "cdk-bootstrap": "cdk bootstrap",
+    "cdk-deploy": "cdk deploy",
+    "cdk-destroy": "cdk destroy"
   },
   "devDependencies": {
     "@aws-cdk/core": "^1.13.1",
