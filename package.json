@@ -4,6 +4,9 @@
   "bin": {
     "serverless-api-cdk": "bin/serverless-api-cdk.js"
   },
+  "engines": {
+    "node": "10.x"
+  },
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",

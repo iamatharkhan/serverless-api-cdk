@@ -7,7 +7,7 @@ The resources are provisioned through CloudFormation using AWS CDK.
 
 ## Resources
 
-* AWS Lambda Function
+* AWS Lambda Function (Node.js v10.x)
 * AWS API Gateway
 
 ## Running locally
